@@ -1,0 +1,21 @@
+.colorPicker{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+}
+
+.colorPickers{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    padding-block: 16px;
+}
+
+.alpha{
+    width: 40%;
+}
+
+label{
+    width: 50%;
+}

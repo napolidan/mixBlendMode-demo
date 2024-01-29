@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 0, 112);
+}
+
+.titleSection {
+  padding: 24px;
+  text-align: center;
+  color: rgb(200, 230, 255);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.contentSection {
+  padding: 24px;
+}
+
+.boxContainer {
+  border-radius: 16px;
+  border: 2px solid rgb(196, 196, 196);
+  border-style: outset;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 12px; */
+}
+
+.colorPickers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.footer{
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  justify-content: flex-end;
+  padding: 24px;
+}

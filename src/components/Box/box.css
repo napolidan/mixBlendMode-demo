@@ -1,0 +1,46 @@
+.box{
+    flex: 1 0 25%;
+    aspect-ratio: 1/1;
+    border-style:outset;
+    position: relative;
+}
+
+
+.mode{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.box>span{
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+.box>span>*{
+    margin: auto;
+}
+
+.box>span:nth-child(2){
+    transform: translate(-0%, -88%) scale(150%);
+}
+
+.box>span:nth-child(3){
+    transform: translate(-100%, -88%) scale(150%);
+}
+
+.box>span:nth-child(4){
+    transform: translate(-50%, -0%) scale(150%);
+}
+
+.color>p{
+    font-size: 0.5rem;
+}
+
